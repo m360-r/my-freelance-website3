@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechSolutions - ক্যারিয়ারের সেরা সুযোগ</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header id="header">
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">
+                    <i class="fas fa-laptop-code"></i>
+                    TechSolutions
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#home">হোম</a></li>
+                    <li><a href="#about">আমাদের সম্পর্কে</a></li>
+                    <li><a href="#positions">খোলা পদসমূহ</a></li>
+                    <li><a href="#process">নিয়োগ প্রক্রিয়া</a></li>
+                    <li><a href="#philosophy">আমাদের দর্শন</a></li>
+                    <li><a href="#apply">আবেদন করুন</a></li>
+                    <li><a href="#contact">যোগাযোগ</a></li>
+                </ul>
+                <div class="header-actions">
+                    <button class="theme-toggle" id="themeToggle">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                    <div class="mobile-menu">
+                        <i class="fas fa-bars"></i>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content" data-aos="fade-up">
+                <h1>ক্যারিয়ারের সেরা সুযোগ: যোগ দিন আমাদের গতিশীল IT টিমে! 🚀</h1>
+                <p>দক্ষতাই একমাত্র যোগ্যতা - আপনার প্রতিভাকে নতুন উচ্চতায় নিতে চলে আসুন</p>
+                <div class="hero-buttons">
+                    <a href="#positions" class="btn">খোলা পদসমূহ দেখুন</a>
+                    <a href="#apply" class="btn btn-secondary">সরাসরি আবেদন করুন</a>
+                </div>
+                <div class="stats">
+                    <div class="stat-item" data-aos="fade-up" data-aos-delay="100">
+                        <div class="stat-number" id="applicantsCount">0</div>
+                        <div class="stat-label">সক্রিয় আবেদনকারী</div>
+                    </div>
+                    <div class="stat-item" data-aos="fade-up" data-aos-delay="200">
+                        <div class="stat-number" id="positionsCount">0</div>
+                        <div class="stat-label">খোলা পদ</div>
+                    </div>
+                    <div class="stat-item" data-aos="fade-up" data-aos-delay="300">
+                        <div class="stat-number" id="hiredCount">0</div>
+                        <div class="stat-label">নিয়োগকৃত প্রার্থী</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about">
+        <div class="container">
+            <div class="section-title" data-aos="fade-up">
+                <h2>কেন আমাদের সাথে কাজ করবেন?</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-card" data-aos="fade-up" data-aos-delay="100">
+                    <i class="fas fa-lightbulb"></i>
+                    <h3>উদ্ভাবনী প্রোজেক্টে কাজের সুযোগ</h3>
+                    <p>আধুনিক প্রযুক্তি ব্যবহার করে বিভিন্ন উদ্ভাবনী প্রোজেক্টে কাজ করার সুযোগ পান।</p>
+                </div>
+                <div class="about-card" data-aos="fade-up" data-aos-delay="200">
+                    <i class="fas fa-chart-line"></i>
+                    <h3>পেশাগত উন্নয়নের পরিবেশ</h3>
+                    <p>নিয়মিত ট্রেনিং ও ওয়ার্কশপের মাধ্যমে আপনার দক্ষতা বৃদ্ধির সুযোগ।</p>
+                </div>
+                <div class="about-card" data-aos="fade-up" data-aos-delay="300">
+                    <i class="fas fa-award"></i>
+                    <h3>দক্ষতা-ভিত্তিক ক্যারিয়ার অগ্রগতি</h3>
+                    <p>আপনার দক্ষতার ভিত্তিতে দ্রুত ক্যারিয়ার অগ্রগতির সুযোগ।</p>
+                </div>
+                <div class="about-card" data-aos="fade-up" data-aos-delay="400">
+                    <i class="fas fa-globe"></i>
+                    <h3>আন্তর্জাতিক মানের কাজের অভিজ্ঞতা</h3>
+                    <p>বিশ্বব্যাপী ক্লায়েন্টদের সাথে কাজ করার মাধ্যমে আন্তর্জাতিক অভিজ্ঞতা অর্জন করুন।</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Open Positions Section -->
+    <section class="positions" id="positions">
+        <div class="container">
+            <div class="section-title" data-aos="fade-up">
+                <h2>আমরা যেসব পদে নিয়োগ দিচ্ছি</h2>
+            </div>
+            <div class="positions-filter" data-aos="fade-up" data-aos-delay="100">
+                <button class="filter-btn active" data-filter="all">সব পদ</button>
+                <button class="filter-btn" data-filter="marketing">মার্কেটিং</button>
+                <button class="filter-btn" data-filter="development">ডেভেলপমেন্ট</button>
+                <button class="filter-btn" data-filter="design">ডিজাইন</button>
+            </div>
+            <div class="positions-grid">
+                <div class="position-card" data-category="marketing" data-aos="fade-up" data-aos-delay="100">
+                    <div class="position-icon">🎯</div>
+                    <h3>ডিজিটাল মার্কেটিং বিশেষজ্ঞ</h3>
+                    <p>অনলাইন মার্কেটিং ক্যাম্পেইন পরিচালনা এবং কৌশল উন্নয়নের দায়িত্বে থাকবেন।</p>
+                    <div class="position-tags">
+                        <span class="tag">ফুল-টাইম</span>
+                        <span class="tag">ঢাকা</span>
+                        <span class="tag">২-৪ বছর অভিজ্ঞতা</span>
+                    </div>
+                    <div class="position-meta">
+                        <span>আবেদনের শেষ তারিখ: ৩০ সেপ্টেম্বর</span>
+                        <span>৫টি শূন্য পদ</span>
+                    </div>
+                </div>
+                <div class="position-card" data-category="marketing" data-aos="fade-up" data-aos-delay="150">
+                    <div class="position-icon">📊</div>
+                    <h3>অনলাইন মার্কেটপ্লেস ম্যানেজার</h3>
+                    <p>বিভিন্ন অনলাইন মার্কেটপ্লেসে আমাদের প্রোডাক্টের উপস্থিতি ব্যবস্থাপনা।</p>
+                    <div class="position-tags">
+                        <span class="tag">ফুল-টাইম</span>
+                        <span class="tag">দূরবর্তী</span>
+                        <span class="tag">৩-৫ বছর অভিজ্ঞতা</span>
+                    </div>
+                    <div class="position-meta">
+                        <span>আবেদনের শেষ তারিখ: ২৫ সেপ্টেম্বর</span>
+                        <span>২টি শূন্য পদ</span>
+                    </div>
+                </div>
+                <div class="position-card" data-category="marketing" data-aos="fade-up" data-aos-delay="200">
+                    <div class="position-icon">💬</div>
+                    <h3>সোশ্যাল মিডিয়া মার্কেটিং এক্সিকিউটিভ</h3>
+                    <p>সোশ্যাল মিডিয়া প্ল্যাটফর্মে কন্টেন্ট তৈরি এবং এনগেজমেন্ট বৃদ্ধি।</p>
+                    <div class="position-tags">
+                        <span class="tag">ফুল-টাইম</span>
+                        <span class="tag">ঢাকা</span>
+                        <span class="tag">১-৩ বছর অভিজ্ঞতা</span>
+                    </div>
+                    <div class="position-meta">
+                        <span>আবেদনের শেষ তারিখ: ২৮ সেপ্টেম্বর</span>
+                        <span>৩টি শূন্য পদ</span>
+                    </div>
+                </div>
+                <div class="position-card" data-category="marketing" data-aos="fade-up" data-aos-delay="250">
+                    <div class="position-icon">✍️</div>
+                    <h3>কন্টেন্ট স্ট্রাটেজিস্ট</h3>
+                    <p>কন্টেন্ট মার্কেটিং স্ট্রাটেজি ডেভেলপমেন্ট এবং বাস্তবায়ন।</p>
+                    <div class="position-tags">
+                        <span class="tag">ফুল-টাইম</span>
+                        <span class="tag">দূরবর্তী</span>
+                        <span class="tag">৪-৬ বছর অভিজ্ঞতা</span>
+                    </div>
+                    <div class="position-meta">
+                        <span>আবেদনের শেষ তারিখ: ১৫ অক্টোবর</span>
+                        <span>১টি শূন্য পদ</span>
+                    </div>
+                </div>
+                <div class="position-card" data-category="marketing" data-aos="fade-up" data-aos-delay="300">
+                    <div class="position-icon">🔍</div>
+                    <h3>SEO বিশেষজ্ঞ</h3>
+                    <p>ওয়েবসাইটের সার্চ ইঞ্জিন অপ্টিমাইজেশন এবং ভিজিবিলিটি বৃদ্ধি।</p>
+                    <div class="position-tags">
+                        <span class="tag">ফুল-টাইম</span>
+                        <span class="tag">ঢাকা</span>
+                        <span class="tag">২-৪ বছর অভিজ্ঞতা</span>
+                    </div>
+                    <div class="position-meta">
+                        <span>আবেদনের শেষ তারিখ: ৫ অক্টোবর</span>
+                        <span>২টি শূন্য পদ</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Recruitment Process Section -->
+    <section id="process">
+        <div class="container">
+            <div class="section-title" data-aos="fade-up">
+                <h2>কিভাবে আবেদন করবেন?</h2>
+            </div>
+            <div class="process-steps">
+                <div class="step" data-aos="fade-up" data-aos-delay="100">
+                    <div class="step-number">1</div>
+                    <h3>আবেদন</h3>
+                    <p>অনলাইন ফর্ম পূরণ করুন</p>
+                </div>
+                <div class="step" data-aos="fade-up" data-aos-delay="200">
+                    <div class="step-number">2</div>
+                    <h3>পরীক্ষা</h3>
+                    <p>দক্ষতা যাচাই পরীক্ষা</p>
+                </div>
+                <div class="step" data-aos="fade-up" data-aos-delay="300">
+                    <div class="step-number">3</div>
+                    <h3>ইন্টারভিউ</h3>
+                    <p>প্রার্থী সিলেকশন</p>
+                </div>
+                <div class="step" data-aos="fade-up" data-aos-delay="400">
+                    <div class="step-number">4</div>
+                    <h3>যোজনা</h3>
+                    <p>চূড়ান্ত নিয়োগ</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Philosophy Section -->
+    <section class="philosophy" id="philosophy">
+        <div class="container">
+            <div class="section-title" data-aos="fade-up">
+                <h2>আমরা যা বিশ্বাস করি</h2>
+            </div>
+            <div class="philosophy-content" data-aos="fade-up" data-aos-delay="100">
+                <p>"আমরা坚信 দক্ষতাই আসল যোগ্যতা। ডিগ্রি বা সার্টিফিকেট নয়, আপনার的实际 দক্ষতা就是我们正在寻找的。"</p>
+                <div class="philosophy-author">- TechSolutions টিম</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Application Form Section -->
+    <section id="apply">
+        <div class="container">
+            <div class="section-title" data-aos="fade-up">
+                <h2>আবেদন ফর্ম</h2>
+            </div>
+            <div class="form-container" data-aos="fade-up" data-aos-delay="100">
+                <form id="applicationForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="fullName">পুরো নাম</label>
+                            <input type="text" id="fullName" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">ইমেইল ঠিকানা</label>
+                            <input type="email" id="email" class="form-control" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="phone">ফোন নম্বর</label>
+                            <input type="tel" id="phone" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="position">পছন্দের পদ</label>
+                            <select id="position" class="form-control" required>
+                                <option value="">পদ নির্বাচন করুন</option>
+                                <option value="ডিজিটাল মার্কেটিং বিশেষজ্ঞ">ডিজিটাল মার্কেটিং বিশেষজ্ঞ</option>
+                                <option value="অনলাইন মার্কেটপ্লেস ম্যানেজার">অনলাইন মার্কেটপ্লেস ম্যানেজার</option>
+                                <option value="সোশ্যাল মিডিয়া মার্কেটিং এক্সিকিউটিভ">সোশ্যাল মিডিয়া মার্কেটিং এক্সিকিউটিভ</option>
+                                <option value="কন্টেন্ট স্ট্রাটেজিস্ট">কন্টেন্ট স্ট্রাটেজিস্ট</option>
+                                <option value="SEO বিশেষজ্ঞ">SEO বিশেষজ্ঞ</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="resume">রেজুমি/সিভি আপলোড (PDF, DOC, DOCX)</label>
+                        <input type="file" id="resume" class="form-control" accept=".pdf,.doc,.docx" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">সংক্ষিপ্ত পরিচয় (কেন আপনি এই পদটির জন্য উপযুক্ত?)</label>
+                        <textarea id="message" class="form-control" rows="5" placeholder="আপনার দক্ষতা, অভিজ্ঞতা এবং কেন আপনি এই পদটির জন্য উপযুক্ত তা সংক্ষেপে লিখুন..."></textarea>
+                    </div>
+                    <button type="submit" class="btn" style="width: 100%;">আবেদন জমা দিন</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="section-title" data-aos="fade-up">
+                <h2>যোগাযোগ</h2>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info" data-aos="fade-up" data-aos-delay="100">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>ঠিকানা</h3>
+                            <p>১২৩/ক, বিজয়নগর, ঢাকা-১২১২, বাংলাদেশ</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>ফোন নম্বর</h3>
+                            <p>+৮৮০ ১৭১২ ৩৪৫৬৭৮</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>ইমেইল</h3>
+                            <p>career@techsolutions.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h3>কর্মঘণ্টা</h3>
+                            <p>রবি-বৃহস্পতিবার: সকাল ৯টা - সন্ধ্যা ৬টা<br>শুক্রবার: সকাল ৯টা - দুপুর ১টা</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form" data-aos="fade-up" data-aos-delay="200">
+                    <h3>দ্রুত যোগাযোগ</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="contactName">আপনার নাম</label>
+                            <input type="text" id="contactName" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="contactEmail">ইমেইল ঠিকানা</label>
+                            <input type="email" id="contactEmail" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="contactSubject">বিষয়</label>
+                            <input type="text" id="contactSubject" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="contactMessage">বার্তা</label>
+                            <textarea id="contactMessage" class="form-control" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">বার্তা পাঠান</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-links">
+                    <h3>TechSolutions</h3>
+                    <p>আপনার ক্যারিয়ারের পরবর্তী পদক্ষেপের জন্য সেরা গন্তব্য। দক্ষতা ভিত্তিক নিয়োগে আমরা অগ্রগামী।</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h3>দ্রুত লিংক</h3>
+                    <ul>
+                        <li><a href="#home">হোম</a></li>
+                        <li><a href="#about">আমাদের সম্পর্কে</a></li>
+                        <li><a href="#positions">খোলা পদসমূহ</a></li>
+                        <li><a href="#process">নিয়োগ প্রক্রিয়া</a></li>
+                        <li><a href="#apply">আবেদন করুন</a></li>
+                        <li><a href="#contact">যোগাযোগ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h3>গুরুত্বপূর্ণ লিংক</h3>
+                    <ul>
+                        <li><a href="#">প্রাইভেসি পলিসি</a></li>
+                        <li><a href="#">টার্মস অফ সার্ভিস</a></li>
+                        <li><a href="#">কুকি পলিসি</a></li>
+                        <li><a href="#">সাধারণ জিজ্ঞাসা</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h3>নিউজলেটার</h3>
+                    <p>নতুন পদ এবং ক্যারিয়ার সুযোগ সম্পর্কে সবার আগে জানতে সাবস্ক্রাইব করুন।</p>
+                    <form id="newsletterForm">
+                        <div class="form-group">
+                            <input type="email" class="form-control" placeholder="আপনার ইমেইল" required>
+                        </div>
+                        <button type="submit" class="btn" style="width: 100%;">সাবস্ক্রাইব করুন</button>
+                    </form>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; ২০২৩ TechSolutions. সকল স্বত্ব সংরক্ষিত।</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#home" class="back-to-top" id="backToTop">
+        <i class="fas fa-chevron-up"></i>
+    </a>
+
+    <!-- Success Modal -->
+    <div class="modal" id="successModal">
+        <div class="modal-content">
+            <span class="modal-close" id="modalClose">&times;</span>
+            <div class="modal-icon">
+                <i class="fas fa-check-circle"></i>
+            </div>
+            <h2>আবেদন সফল!</h2>
+            <p id="modalMessage">আপনার আবেদনটি সফলভাবে জমা হয়েছে। আমরা শীঘ্রই আপনার সাথে যোগাযোগ করব।</p>
+            <button class="btn" id="modalBtn">ঠিক আছে</button>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
